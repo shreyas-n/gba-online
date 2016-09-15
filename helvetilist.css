@@ -1,0 +1,68 @@
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+}
+
+#hitcounter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+div {
+  width: 500px;
+  margin: 30px;
+}
+
+#madeby {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    bottom: 90%;
+}
+
+#title {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid #ccc;
+  color: #FFFFFF;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #FFFFFF;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 500px;
+}
+
+li a:hover {
+  font-size: 29px;
+  background: #666666;
+}
