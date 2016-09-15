@@ -1,6 +1,6 @@
 {
   "name": "GBA Online",
-  "description": "Static app to play GBA games in the browser",
+  "description": "App to play GBA games in the browser",
   "repository": "https://github.com/shreyas-n/gba-online",
   "logo": "http://i.imgur.com/nDcQXeC.png",
   "keywords": ["gba", "gameboy", "static"]
